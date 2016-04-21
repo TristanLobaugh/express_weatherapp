@@ -1,0 +1,19 @@
+<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+
+<div id="weather-wrapper">
+	<div id="city">
+		<%= body.name %>
+	</div>
+	<div id="weather-description">
+		<%= body.weather[0].main %>
+	</div>
+	<div id="icon-wrapper">
+		<div id="icons"></div>
+		<div id="weather-description">
+		<%= body.weather[0].main %>
+		</div>
+	</div>		
+	<div id="temp">Temp: <%= body.main.temp %>
+	</div>
+</div>
+
